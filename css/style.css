@@ -64,6 +64,7 @@ header {
 }
 
 .title {
+    font-size:32px;
     font-family: "GeForce-Light-Alt";
     margin:0 48px 0 22px;
 }
@@ -79,4 +80,8 @@ ul {
     font-family: "DINPro-Regular";
     text-transform: uppercase;
     font-size: 16px;
+}
+
+.menu li {
+    margin-right:2.5rem;
 }
