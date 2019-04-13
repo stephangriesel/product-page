@@ -1,0 +1,80 @@
+/* Styles 
+
+// Colors:
+Grey border: #222222
+Green: #76b900
+
+// Fonts
+Header: GeForce-Light-Alt
+Menu: DINPro-Regular
+Titles: Geforce-Light
+Descriptions: DINPro-Regular
+Image descriptions: DINPro-Bold
+Product titles: GeForce-Bold-Alt
+Prices: DINPro-Regular
+CTA: DINPro-Bold
+*/
+
+@font-face {
+    font-family: "GeForce-Light-Alt";
+    src: url("../fonts/geforce/GeForce-Light-Alt.otf");
+  }
+
+@font-face {
+    font-family: "DINPro-Regular";
+    src: url("../fonts/din/DINPro-Regular.otf");
+  }
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.wrapper {
+    width:100%;
+    /* max-width: 1280px; */
+}
+
+/* Header */
+header {
+    height:114px;
+}
+
+.top-bar {
+    display:flex;
+    align-items: center;
+    margin:0 48px 0 22px;
+    height:57px;
+    width:100%;
+}
+
+.top-bar img {
+    width:120px;
+    height:21.8px;
+}
+
+.sub-bar {
+    background:#000000;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:59px;
+    width:100%;
+}
+
+.title {
+    font-family: "GeForce-Light-Alt";
+    margin:0 48px 0 22px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.menu {
+    font-family: "DINPro-Regular";
+}
