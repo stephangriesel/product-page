@@ -163,7 +163,7 @@ h2 span {
     text-transform: uppercase;
 }
 
-/* BLOCK 2: FULL */
+/* BLOCK 2A: FULL */
 .full {
     background-color: #000000;
     color:#FFFFFF;
@@ -203,6 +203,7 @@ h2 span {
     text-align: center; /*Another option would be to wrap the h1 and paragraph in div and use flex, but didn't want to nest too much ;)*/
 }
 
+
 .full p {
     font-family: "DINPro-Regular";
     font-size:16px;
@@ -220,13 +221,13 @@ h2 span {
 }
 
 .full-img img {
-    width:100%;
+    width:100vw;
     max-width:718px;
     max-height:557.8px;
     /* margin:0px 240px 0px 321px; */
 }
 
-.full h3 {
+.info-box h3 {
     color:#76b900;
     font-family:"DINPro-Bold";
     font-size:16px;
@@ -234,7 +235,7 @@ h2 span {
     margin:0;
 }
 
-.full p:nth-last-child(1) {
+.info-box p {
     text-align: left;
     margin:0;
 }
@@ -245,5 +246,31 @@ h2 span {
     flex-direction: column;
     margin-top:21.3px;
     padding:12.4px 14px 12.4px 19.1px;
-    width:752px;
+    max-width:752px;
+}
+
+/* BLOCK 2B: FULL */
+
+.full-desc h2 {
+    font-family: "GeForce-Bold-Alt";
+    font-size:32px;
+    line-height:16px;
+    margin:51px 0px 46px 0px;
+    text-align: center;
+}
+
+.full-desc p {
+    text-align: center;
+    margin:0px 134px 29.4px 132px;
+}
+
+.small-text {
+    font-family: "DINPro-Regular";
+    font-size:12px;
+}
+
+.full-desc p:nth-child(3) {
+    font-family: "DINPro-Bold";
+    font-size:24px;
+    line-height: 24px;
 }
