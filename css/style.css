@@ -109,3 +109,8 @@ ul {
     border-right:none;
 
 }
+
+h2 span {
+    display:block;
+    text-align: center;
+}
