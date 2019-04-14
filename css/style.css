@@ -31,8 +31,9 @@ body {
 }
 
 .wrapper {
+    margin:0 auto;
     width:100%;
-    /* max-width: 1280px; */
+    max-width: 1280px;
 }
 
 /* Header */
@@ -84,4 +85,27 @@ ul {
 
 .menu li {
     margin-right:2.5rem;
+}
+
+/* Block 1: Half Half */
+.half-half {
+    display:flex;
+}
+
+.block-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:495px;
+    width: 50%;
+    border-top:4px solid #222222;
+    border-right:4px solid #222222;
+    border-bottom:4px solid #222222;
+}
+
+.block-half:nth-child(2) {
+    border-right:none;
+
 }
