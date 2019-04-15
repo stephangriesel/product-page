@@ -18,88 +18,87 @@ CTA: DINPro-Bold
 @font-face {
     font-family: "GeForce-Light-Alt";
     src: url("../fonts/geforce/GeForce-Light-Alt.otf");
-  }
+}
 
 @font-face {
     font-family: "GeForce-Light";
     src: url("../fonts/geforce/GeForce_Light.otf");
-  }
+}
 
 @font-face {
     font-family: "GeForce-Bold-Alt";
     src: url("../fonts/geforce/GeForce-Bold-Alt.otf");
-  }
+}
 
 @font-face {
     font-family: "DINPro-Regular";
     src: url("../fonts/din/DINPro-Regular.otf");
-  }
+}
 
 @font-face {
     font-family: "DINPro-Bold";
     src: url("../fonts/din/DINPro-Bold_0.otf");
-  }
+}
 
-body,h2 {
-    margin:0;
-    padding:0;
+body, h2 {
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
-    margin:0 auto;
-    width:100%;
+    margin: 0 auto;
+    width: 100%;
     max-width: 1280px;
 }
 
 .green {
-    color:#76b900;
+    color: #76b900;
 }
 
 a {
     text-decoration: none;
 }
 
-
-
 /* Header */
+
 header {
-    height:114px;
+    height: 114px;
 }
 
 .top-bar {
-    display:flex;
+    display: flex;
     align-items: center;
-    margin:0 48px 0 22px;
-    height:57px;
-    width:100%;
+    margin: 0 48px 0 22px;
+    height: 57px;
+    width: 100%;
 }
 
 .top-bar img {
-    width:120px;
-    height:21.8px;
+    width: 120px;
+    height: 21.8px;
 }
 
 .sub-bar {
-    background:#000000;
-    color:#FFFFFF;
+    background: #000000;
+    color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:59px;
-    width:100%;
+    height: 59px;
+    width: 100%;
 }
 
 .title {
-    font-size:32px;
+    font-size: 32px;
     font-family: "GeForce-Light-Alt";
-    margin:0 48px 0 22px;
+    margin: 0 48px 0 22px;
 }
 
 ul {
     display: flex;
     list-style: none;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 .menu {
@@ -109,12 +108,13 @@ ul {
 }
 
 .menu li {
-    margin-right:2.5rem;
+    margin-right: 2.5rem;
 }
 
 /* Block 1: Half Half */
+
 .half-half {
-    display:flex;
+    display: flex;
 }
 
 .block-half {
@@ -123,34 +123,27 @@ ul {
     justify-content: center;
     align-content: center;
     align-items: center;
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.8), 
-        rgba(0, 0, 0, 0.8)), 
-        url("../img/1.png");
-    background-size:cover;
-    color:#FFFFFF;
-    height:495px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/1.png");
+    background-size: cover;
+    color: #FFFFFF;
+    height: 495px;
     width: 50%;
-    border-top:4px solid #222222;
-    border-right:4px solid #222222;
-    border-bottom:4px solid #222222;
+    border-top: 4px solid #222222;
+    border-right: 4px solid #222222;
+    border-bottom: 4px solid #222222;
 }
 
 .block-half:nth-child(2) {
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.8), 
-        rgba(0, 0, 0, 0.8)), 
-        url("../img/2.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/2.png");
     background-size: cover;
-    border-right:none;
+    border-right: none;
 }
 
 .block-half h2 {
     font-family: "GeForce-Bold-Alt";
     text-transform: uppercase;
-    font-size:40px;
+    font-size: 40px;
     line-height: 40px;
-
 }
 
 /* .half-half-text {
@@ -159,77 +152,76 @@ ul {
 } */
 
 h2 span {
-    display:block;
+    display: block;
     text-align: center;
 }
 
 .block-half p {
-    color:#76b900;
-    font-size:16px;
+    color: #76b900;
+    font-size: 16px;
     font-family: "DINPro-Bold";
     text-transform: uppercase;
 }
 
 .fa-chevron-down {
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
 }
 
 /* BLOCK 2A: FULL */
+
 .full {
     background-color: #000000;
-    color:#FFFFFF;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
 }
 
 .back-to-top {
-    color:#222222;
+    color: #222222;
     font-family: "DINPro-Regular";
     line-height: 16px;
     display: flex;
-    font-size:12px;
+    font-size: 12px;
     justify-content: flex-end;
     text-transform: uppercase;
-    margin:20px 31px 0 0;
+    margin: 20px 31px 0 0;
 }
 
 .back-to-top a {
-    color:#222222;
+    color: #222222;
 }
 
 .fa-chevron-up {
-    font-weight:900;
-    font-size:16px;
+    font-weight: 900;
+    font-size: 16px;
     margin-left: 6px;
 }
 
 .full h1 {
     font-family: "GeForce-Light";
     font-size: 64px;
-    font-weight:300;
+    font-weight: 300;
     text-transform: uppercase;
-
-    margin:63px 0 0 0;
-    text-align: center; /*Another option would be to wrap the h1 and paragraph in div and use flex, but didn't want to nest too much ;)*/
+    margin: 63px 0 0 0;
+    text-align: center;
+    /*Another option would be to wrap the h1 and paragraph in div and use flex, but didn't want to nest too much ;)*/
 }
-
 
 .full p {
     font-family: "DINPro-Regular";
-    font-size:16px;
-
+    font-size: 16px;
     text-align: center;
-    margin:34px 113px 42px 115px;
+    margin: 34px 113px 42px 115px;
 }
 
 .full-img {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    margin:0 240px 0 321px;
+    margin: 0 240px 0 321px;
 }
 
 #main-image #infobox {
@@ -240,67 +232,69 @@ h2 span {
 
 #overlay-image {
     position: absolute;
-    width:30px;
-    transform: translate(-195px,350px);
+    width: 30px;
+    transform: translate(-195px, 350px);
     cursor: pointer;
 }
 
 #overlay-image2 {
     position: absolute;
-    width:30px;
-    transform: translate(-195px,150px);
+    width: 30px;
+    transform: translate(-195px, 150px);
 }
+
 #overlay-image3 {
     position: absolute;
-    width:30px;
-    transform: translate(-145px,50px);
+    width: 30px;
+    transform: translate(-145px, 50px);
 }
+
 #overlay-image4 {
     position: absolute;
-    width:30px;
-    transform: translate(-35px,120px);
+    width: 30px;
+    transform: translate(-35px, 120px);
 }
+
 #overlay-image5 {
     position: absolute;
-    width:30px;
-    transform: translate(110px,250px);
+    width: 30px;
+    transform: translate(110px, 250px);
 }
 
 .full-img img {
-    height:auto;
-    max-width:718px;
-    max-height:557.8px; 
+    height: auto;
+    max-width: 718px;
+    max-height: 557.8px;
 }
 
 #line {
     position: absolute;
-    top:1260px;
-    left:1075px;
+    top: 1260px;
+    left: 1075px;
     height: 227.4px;
     transform: rotate(-20deg);
     border: solid 1px #76b900;
-  }
+}
 
 #info-box h3 {
-    color:#76b900;
-    font-family:"DINPro-Bold";
-    font-size:16px;
+    color: #76b900;
+    font-family: "DINPro-Bold";
+    font-size: 16px;
     line-height: 24px;
-    margin:0;
+    margin: 0;
 }
 
 #info-box p {
     text-align: left;
-    margin:0;
+    margin: 0;
 }
 
 #info-box {
     border: solid 1px #76b900;
-    /* visibility:visible; */
     flex-direction: column;
-    margin-top:21.3px;
-    padding:12.4px 14px 12.4px 19.1px;
-    max-width:752px;
+    margin-top: 21.3px;
+    padding: 12.4px 14px 12.4px 19.1px;
+    max-width: 752px;
 }
 
 /* BLOCK 2B: FULL */
@@ -313,146 +307,145 @@ h2 span {
 
 .full-desc h2 {
     font-family: "GeForce-Bold-Alt";
-    font-size:32px;
-    line-height:16px;
-    margin:51px 0px 46px 0px;
+    font-size: 32px;
+    line-height: 16px;
+    margin: 51px 0px 46px 0px;
     text-align: center;
 }
 
 .full-desc p {
     text-align: center;
-    margin:0px 134px 29.4px 132px;
+    margin: 0px 134px 29.4px 132px;
 }
 
 p.price {
-    margin:0 0 17.6px;
+    margin: 0 0 17.6px;
     font-family: "DINPro-Bold";
-    font-size:24px;
+    font-size: 24px;
 }
 
 .small-text {
     font-family: "DINPro-Regular";
-    font-size:12px;
-    margin:0;
+    font-size: 12px;
+    margin: 0;
 }
 
 .cta-btn {
-    background-color:#76b900;
-    font-size:16px;
-    font-family:"DINPro-Bold";
-    color:#FFFFFF;
+    background-color: #76b900;
+    font-size: 16px;
+    font-family: "DINPro-Bold";
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    width:112px;
-    height:30px;
-    margin-bottom:28px;
+    width: 112px;
+    height: 30px;
+    margin-bottom: 28px;
 }
 
 /* BLOCK 3C: MORE-HALF */
+
 .more-half h2 {
     font-family: GeForce-Bold-Alt;
-    font-size:32px;
-    margin:0px 36px 16px 217px;
+    font-size: 32px;
+    margin: 0px 36px 16px 217px;
     text-align: right;
 }
 
 .more-half-less p {
     text-align: right;
     font-family: "DINPro-Regular";
-    font-size:16px;
+    font-size: 16px;
     line-height: 24px;
-    margin:0px 36px 20px 110px; /* left original 95px*/
+    margin: 0px 36px 20px 110px;
+    /* left original 95px*/
 }
 
 .more-half {
-    border-bottom:4px solid #222222;
-    color:#FFFFFF;
+    border-bottom: 4px solid #222222;
+    color: #FFFFFF;
     background: #000000;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
 .more-half-less {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: flex-end;
 }
 
-
 .more-half-more img {
     transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-    max-width:100%;
-    height:auto;
+    animation: float 6s ease-in-out infinite;
+    max-width: 100%;
+    height: auto;
 }
 
 p.price {
     font-family: "DINPro-Bold";
-    font-size:24px;
-    margin-bottom:15px;
-    font-weight:900;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 900;
 }
 
 .more-half-less .cta-btn {
-    margin:0px 36px 0px 0px;
-
+    margin: 0px 36px 0px 0px;
 }
 
 /* BLOCK 4a: FULL-TEXT */
 
 .full-two h1 {
-    margin:44px 0 0 0;
+    margin: 44px 0 0 0;
 }
 
 .full-two p {
-    margin:7px 277px 77px 278px;
+    margin: 7px 277px 77px 278px;
 }
 
 /* BLOCK 4b: MORE HALF LEFT */
+
 .more-half-two {
     background: #000000;
-    color:#FFFFFF;
-    display:flex;
-    border-bottom:4px solid #222222;
-
+    color: #FFFFFF;
+    display: flex;
+    border-bottom: 4px solid #222222;
 }
 
 .more-half-left {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    width:640px;
-    margin-left:80px;
+    width: 640px;
+    margin-left: 80px;
 }
 
 .more-half-left img {
-    max-width:640px;
-    width:100%;
-    height:auto;
+    max-width: 640px;
+    width: 100%;
+    height: auto;
     animation: float 6s ease-in-out infinite;
 }
-
 
 .less-half-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:560px;
+    width: 560px;
 }
 
 .less-half-right h2 {
     font-family: "GeForce-Bold-Alt";
-    margin-left:14px; 
+    margin-left: 14px;
 }
 
 .less-half-right p {
     font-family: "DINPro-Regular";
-    margin-left:15px;
+    margin-left: 15px;
 }
 
 .more-half-two .cta-btn {
-    margin-left:16px;
+    margin-left: 16px;
 }
 
 /* BLOCK 4C: More right, less left */
@@ -460,11 +453,13 @@ p.price {
 /* SKIPPED */
 
 /* BLOCK 5: Individual Boxes */
+
 .boxes h1 {
-    margin:96px 0 22px 0;
+    margin: 96px 0 22px 0;
 }
+
 .boxes p {
-    margin:0 317px 74px 318px;
+    margin: 0 317px 74px 318px;
 }
 
 .boxes {
@@ -473,14 +468,14 @@ p.price {
 }
 
 .flex-boxes p {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-boxes {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -489,87 +484,115 @@ p.price {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .box h2 {
-    display:flex;
+    display: flex;
     align-items: center;
-    color:#76b900;
+    color: #76b900;
     font-family: "GeForce-Bold-Alt";
-    font-size:40px;
-    line-height:40px;
-    padding:2px;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 2px;
 }
 
 .box p {
     display: flex;
     align-items: center;
-    padding:11px 95px;
+    padding: 11px 95px;
+}
+
+/* Block 6: Last Block */
+
+.last-block {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/8bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-block img {
+    width: 619px;
+}
+
+.bottom-block {
+    display: flex;
+    margin:77px 0 23px 0;
+    width:100%;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width:50%;
+}
+
+.bottom-left p {
+    margin: 0px 100px;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+}
+
+.bottom-right > img {
+    width: 152px;
 }
 
 @keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-10px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-10px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
 }
 
 @media screen and (max-width: 815px) {
-    .full-img img { 
-        max-width:400px;
+    .full-img img {
+        max-width: 400px;
     }
 }
 
 @media screen and (max-width: 1280px) {
-
     #line {
-        display:none;
+        display: none;
     }
-
+    #info-box {
+        display: none;
+    }
     .full-image {
         /* width:600px; */
     }
-
-    #overlay-image {
-        display:none;
+    #overlay-image, #overlay-image2, #overlay-image3, #overlay-image4, #overlay-image5 {
+        display: none;
     }
-
-    #overlay-image2 {
-        display:none;
+    .full-two>p {
+        margin: 7px 100px 77px 100px;
     }
-
-    #overlay-image3 {
-        display:none;
-    }
-
-    #overlay-image4 {
-        display:none;
-    }
-
-    #overlay-image5 {
-        display:none;
-    }
-  
-
-    .full-two > p {
-        margin:7px 100px 77px 100px;
-    }
-
     .more-half-left img {
-    width:100%;
-    height:auto;
+        width: 100%;
+        height: auto;
     }
+    .boxes>p {
+        margin: 7px 100px 77px 100px;
+    }
+}
 
-    .boxes > p {
-        margin:7px 100px 77px 100px;
+@media screen and (max-width: 1480px) {
+    #line {
+        display: none;
     }
 }
