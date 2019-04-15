@@ -180,7 +180,7 @@ h2 span {
     font-size:12px;
     justify-content: flex-end;
     text-transform: uppercase;
-    margin:20px 31px;
+    margin:20px 31px 0 0;
 }
 
 .back-to-top a {
@@ -221,9 +221,11 @@ h2 span {
 }
 
 .full-img img {
-    width:100vw;
+    max-width:100%;
+    height:auto;
+    /* width:100vw;
     max-width:718px;
-    max-height:557.8px;
+    max-height:557.8px; */
     /* margin:0px 240px 0px 321px; */
 }
 
@@ -272,18 +274,14 @@ h2 span {
 
 p.price {
     margin:0 0 17.6px;
+    font-family: "DINPro-Bold";
+    font-size:24px;
 }
 
 .small-text {
     font-family: "DINPro-Regular";
     font-size:12px;
     margin:0;
-}
-
-.full-desc p:nth-child(3) {
-    font-family: "DINPro-Bold";
-    font-size:24px;
-    /* line-height: 24px; */
 }
 
 .cta-btn {
@@ -296,5 +294,79 @@ p.price {
     justify-content: center;
     width:112px;
     height:30px;
+    margin-bottom:28px;
 }
 
+/* BLOCK 3C: MORE-HALF */
+.more-half h2 {
+    font-family: GeForce-Bold-Alt;
+    font-size:32px;
+    margin:0px 36px 16px 217px;
+    text-align: right;
+}
+
+.more-half-less p {
+    text-align: right;
+    font-family: "DINPro-Regular";
+    font-size:16px;
+    line-height: 24px;
+    margin:0px 36px 20px 110px; /* left original 95px*/
+}
+
+.more-half {
+    border-bottom:4px solid #222222;
+    color:#FFFFFF;
+    background: #000000;
+    display:flex;
+    align-items: center;
+}
+
+.more-half-less {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.more-half-more img {
+    max-width:100%;
+    height:auto;
+}
+
+.more-half-less p.price {
+    font-family: "DINPro-Bold";
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.more-half-less .cta-btn {
+    margin:0px 36px 0px 0px;
+
+}
+
+/* BLOCK 4a: FULL-TEXT */
+
+.full-two h1 {
+    margin:44px 0 0 0;
+}
+
+.full-two p {
+    margin:7px 277px 77px 278px;
+}
+
+/* BLOCK 4b: MORE HALF LEFT */
+.more-half-two {
+    background: #000000;
+    color:#FFFFFF;
+    display:flex;
+}
+
+.more-half-left img {
+    max-width:640px;
+    height:498.3px;
+}
+
+.less-half-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
