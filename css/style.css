@@ -226,7 +226,7 @@ h2 span {
     /* width:100vw;
     max-width:718px;
     max-height:557.8px; */
-    /* margin:0px 240px 0px 321px; */
+    margin:0px 240px 0px 321px;
 }
 
 .info-box h3 {
@@ -327,15 +327,17 @@ p.price {
     align-items: flex-end;
 }
 
+
 .more-half-more img {
     max-width:100%;
     height:auto;
 }
 
-.more-half-less p.price {
+p.price {
     font-family: "DINPro-Bold";
     font-size:24px;
     margin-bottom:15px;
+    font-weight:900;
 }
 
 .more-half-less .cta-btn {
@@ -358,15 +360,92 @@ p.price {
     background: #000000;
     color:#FFFFFF;
     display:flex;
+    border-bottom:4px solid #222222;
+
+}
+
+.more-half-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:640px;
+    margin-left:80px;
 }
 
 .more-half-left img {
     max-width:640px;
-    height:498.3px;
+    width:100%;
+    height:auto;
 }
+
 
 .less-half-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width:560px;
+}
+
+.less-half-right h2 {
+    font-family: "GeForce-Bold-Alt";
+    margin-left:14px; 
+}
+
+.less-half-right p {
+    font-family: "DINPro-Regular";
+    margin-left:15px;
+}
+
+.more-half-two .cta-btn {
+    margin-left:16px;
+}
+
+/* BLOCK 4C: More right, less left */
+
+/* SKIPPED */
+
+/* BLOCK 5: Individual Boxes */
+.boxes h1 {
+    margin:96px 0 22px 0;
+}
+.boxes p {
+    margin:0 317px 74px 318px;
+}
+
+.flex-boxes p {
+    margin:0;
+    padding:0;
+}
+
+.flex-boxes {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 1170px) {
+  
+
+    .full-two > p {
+        margin:7px 100px 77px 100px;
+    }
+
+    .more-half-left img {
+    width:100%;
+    height:auto;
+    }
+
+    .boxes > p {
+        margin:7px 100px 77px 100px;
+    }
 }
