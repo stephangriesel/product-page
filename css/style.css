@@ -1,4 +1,4 @@
-/* Styles 
+/* 
 
 // Colors:
 Grey border: #222222
@@ -13,6 +13,7 @@ Image descriptions: DINPro-Bold
 Product titles: GeForce-Bold-Alt
 Prices: DINPro-Regular
 CTA: DINPro-Bold
+
 */
 
 @font-face {
@@ -178,7 +179,6 @@ h2 span {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .back-to-top {
@@ -281,10 +281,9 @@ h2 span {
 
 #line {
     position: absolute;
-    transform: translate(-195px, 350px);
-    top: 1260px;
-    left: 1075px;
-    height: 227.4px;
+    top: 1270px;
+    left: 838px;
+    height: 220.4px;
     transform: rotate(-20deg);
     border: solid 1px #76b900;
 }
@@ -371,7 +370,6 @@ p.price {
     font-size: 16px;
     line-height: 24px;
     margin: 0px 36px 20px 110px;
-    /* left original 95px*/
 }
 
 .more-half {
@@ -729,9 +727,6 @@ footer .sub {
     }
     #info-box {
         display: none;
-    }
-    .full-image {
-        /* width:600px; */
     }
     #overlay-image, #overlay-image2, #overlay-image3, #overlay-image4, #overlay-image5 {
         display: none;
