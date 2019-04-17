@@ -239,8 +239,6 @@ h2 span {
     transform: translate(-195px, 350px);
     cursor: pointer;
     animation: blink 1.5s ease-out infinite;
-
-
 }
 
 #overlay-image2 {
@@ -697,10 +695,9 @@ footer .sub {
     }
 
     #overlay-image {
-        position: relative;
+        position: absolute;
         width: 30px;
-        top: -450px;
-        left: 90px;
+        transform: translate(-195px, 350px);
         cursor: pointer;
         animation: blink 1.5s ease-out infinite;
     }
@@ -732,18 +729,12 @@ footer .sub {
 @media screen and (max-width: 1380px) {
     body {
         overflow-x: hidden;
-        
-    }
-
-    #line {
-        display: none;
     }
 
     #overlay-image {
-        position: relative;
+        position: absolute;
         width: 30px;
-        top: -570px;
-        left: -10px;
+        transform: translate(-195px, 350px);
         cursor: pointer;
         animation: blink 1.5s ease-out infinite;
     }
