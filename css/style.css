@@ -647,8 +647,14 @@ footer .sub {
 
 @media screen and (max-width: 815px) {
     .full-img img {
-        max-width: 400px;
+        max-width: 300px;
     }
+
+    .full-img {
+        margin:0;
+        padding:0;
+    }
+
 
     #info-box {
         width:20rem;
