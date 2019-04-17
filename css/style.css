@@ -227,8 +227,8 @@ h2 span {
     margin: 0 240px 0 321px;
 }
 
-#main-image #infobox {
-    position: relative;
+.fixed-img {
+    position:relative;
 }
 
 /* Overlays */
@@ -281,8 +281,8 @@ h2 span {
 
 #line {
     position: absolute;
-    top: 1270px;
-    left: 838px;
+    top: 365px;
+    left: 525px;
     height: 220.4px;
     transform: rotate(-20deg);
     border: solid 1px #76b900;
@@ -651,6 +651,14 @@ footer .sub {
     .full-img img {
         max-width: 400px;
     }
+
+    #info-box {
+        width:400px;
+    }
+
+    #overlay-image, #overlay-image2, #overlay-image3, #overlay-image4, #overlay-image5 {
+        display:none;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -684,16 +692,19 @@ footer .sub {
         display:flex;
     }
 
-
     #line {
-        display: none;
+        display:none;
     }
-    #info-box {
-        display: none;
+
+    #overlay-image {
+        position: relative;
+        width: 30px;
+        top: -450px;
+        left: 90px;
+        cursor: pointer;
+        animation: blink 1.5s ease-out infinite;
     }
-    #overlay-image, #overlay-image2, #overlay-image3, #overlay-image4, #overlay-image5 {
-        display: none;
-    }
+    
     .box h2 {
         text-align: center;
         }
@@ -721,15 +732,20 @@ footer .sub {
 @media screen and (max-width: 1380px) {
     body {
         overflow-x: hidden;
+        
     }
+
     #line {
         display: none;
     }
-    #info-box {
-        display: none;
-    }
-    #overlay-image, #overlay-image2, #overlay-image3, #overlay-image4, #overlay-image5 {
-        display: none;
+
+    #overlay-image {
+        position: relative;
+        width: 30px;
+        top: -570px;
+        left: -10px;
+        cursor: pointer;
+        animation: blink 1.5s ease-out infinite;
     }
 
     /* Menu */
