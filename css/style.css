@@ -387,7 +387,7 @@ p.price {
 .more-half-more img {
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -515,6 +515,8 @@ p.price {
 /* Block 6: Last Block */
 
 .last-block {
+    display:flex;
+    flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/8bg.png");
     background-size: cover;
     display: flex;
@@ -523,7 +525,8 @@ p.price {
 }
 
 .last-block img {
-    width: 619px;
+    width:100%;
+    max-width: 619px;
 }
 
 .bottom-block {
